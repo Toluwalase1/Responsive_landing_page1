@@ -122,3 +122,21 @@ footer {
     }
     
 }
+@media (max-width: 550px) {
+   
+    nav ul {
+        gap: 1rem;
+        font-size: 0.9rem;
+        justify-content: center;
+        width: 100%;
+    }
+    header {
+        flex-direction: column;
+        padding: 1rem;
+        height: auto;
+    }
+    .container {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+    }
+}
