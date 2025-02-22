@@ -52,6 +52,7 @@ footer {
     margin: 1rem 0; 
     background-color: #313247;
     color: white;
+    justify-content: space-between;
 }
 
 .welcome {
@@ -73,7 +74,9 @@ footer {
 }
 
 .prod-img {
-    width: 100%; 
+    width: 100%;
+    height: 250px;
+    object-fit: contain; 
 }
 
 /* responsive designs */
